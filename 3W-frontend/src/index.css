@@ -11,3 +11,23 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.first{
+  width:50vw;
+  height: 100px;
+  float: left;
+  
+}
+
+.second{
+  width: 50vw;
+  height:100px;
+  display:inline-block;
+}
+
+.third {
+  width: 50vw;
+  height: 100px;
+  float: right;
+
+}
