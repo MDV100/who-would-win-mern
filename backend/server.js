@@ -31,7 +31,7 @@ app.post('/test/cards', (req, res) => {
     })
 })
 
-app.get('/test/cards', (req, res) => {
+app.get('/test/cards', Cors(), (req, res) => {
     Cards.find(req.body) 
     .then(result => {
         console.log(result)
